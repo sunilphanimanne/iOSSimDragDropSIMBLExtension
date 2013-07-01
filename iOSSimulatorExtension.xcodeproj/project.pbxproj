@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385FB79D17819AD800EBCD67 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385FB79C17819AD800EBCD67 /* CoreFoundation.framework */; };
+		385FB7A317819AD900EBCD67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 385FB7A117819AD900EBCD67 /* InfoPlist.strings */; };
+		385FB7BE17819B9300EBCD67 /* DragDropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FB7AF17819B9300EBCD67 /* DragDropManager.m */; };
+		385FB7BF17819B9300EBCD67 /* DragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FB7B117819B9300EBCD67 /* DragDropView.m */; };
+		385FB7C117819B9300EBCD67 /* XCodeProjectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FB7B717819B9300EBCD67 /* XCodeProjectExtension.m */; };
+		385FB7C217819B9300EBCD67 /* ShellScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FB7BA17819B9300EBCD67 /* ShellScriptRunner.m */; };
+		385FB7C317819B9300EBCD67 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FB7BC17819B9300EBCD67 /* Utils.m */; };
+		385FB7CC17819C2200EBCD67 /* AMShellWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FB7C617819C2200EBCD67 /* AMShellWrapper.m */; };
+		385FB7CE17819C4900EBCD67 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385FB7CD17819C4900EBCD67 /* AppKit.framework */; };
+		385FB7D017819C4D00EBCD67 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385FB7CF17819C4D00EBCD67 /* Cocoa.framework */; };
+		385FB7D317819F1700EBCD67 /* StatusWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385FB7D217819F1700EBCD67 /* StatusWindow.xib */; };
+		385FB7D71781A14400EBCD67 /* ExtensionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FB7D61781A14400EBCD67 /* ExtensionController.m */; };
+		385FB7DB1781A16600EBCD67 /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FB7DA1781A16600EBCD67 /* CustomWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		385FB79917819AD800EBCD67 /* iOSSimulatorExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSimulatorExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		385FB79C17819AD800EBCD67 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		385FB7A017819AD800EBCD67 /* iOSSimulatorExtension-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSSimulatorExtension-Info.plist"; sourceTree = "<group>"; };
+		385FB7A217819AD900EBCD67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		385FB7A417819AD900EBCD67 /* iOSSimulatorExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSSimulatorExtension-Prefix.pch"; sourceTree = "<group>"; };
+		385FB7AE17819B9300EBCD67 /* DragDropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropManager.h; sourceTree = "<group>"; };
+		385FB7AF17819B9300EBCD67 /* DragDropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropManager.m; sourceTree = "<group>"; };
+		385FB7B017819B9300EBCD67 /* DragDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropView.h; sourceTree = "<group>"; };
+		385FB7B117819B9300EBCD67 /* DragDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropView.m; sourceTree = "<group>"; };
+		385FB7B217819B9300EBCD67 /* DraggableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableItem.h; sourceTree = "<group>"; };
+		385FB7B617819B9300EBCD67 /* XCodeProjectExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCodeProjectExtension.h; sourceTree = "<group>"; };
+		385FB7B717819B9300EBCD67 /* XCodeProjectExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCodeProjectExtension.m; sourceTree = "<group>"; };
+		385FB7B917819B9300EBCD67 /* ShellScriptRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellScriptRunner.h; sourceTree = "<group>"; };
+		385FB7BA17819B9300EBCD67 /* ShellScriptRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShellScriptRunner.m; sourceTree = "<group>"; };
+		385FB7BB17819B9300EBCD67 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		385FB7BC17819B9300EBCD67 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		385FB7C517819C2200EBCD67 /* AMShellWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMShellWrapper.h; sourceTree = "<group>"; };
+		385FB7C617819C2200EBCD67 /* AMShellWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMShellWrapper.m; sourceTree = "<group>"; };
+		385FB7C717819C2200EBCD67 /* iPhone Simulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iPhone Simulator.h"; sourceTree = "<group>"; };
+		385FB7C817819C2200EBCD67 /* MonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorController.h; sourceTree = "<group>"; };
+		385FB7C917819C2200EBCD67 /* SimulatorBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulatorBridge.h; sourceTree = "<group>"; };
+		385FB7CA17819C2200EBCD67 /* SimulatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulatorView.h; sourceTree = "<group>"; };
+		385FB7CB17819C2200EBCD67 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		385FB7CD17819C4900EBCD67 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		385FB7CF17819C4D00EBCD67 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		385FB7D217819F1700EBCD67 /* StatusWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusWindow.xib; sourceTree = "<group>"; };
+		385FB7D51781A14400EBCD67 /* ExtensionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionController.h; sourceTree = "<group>"; };
+		385FB7D61781A14400EBCD67 /* ExtensionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionController.m; sourceTree = "<group>"; };
+		385FB7D91781A16600EBCD67 /* CustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
+		385FB7DA1781A16600EBCD67 /* CustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		385FB79617819AD800EBCD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385FB7D017819C4D00EBCD67 /* Cocoa.framework in Frameworks */,
+				385FB7CE17819C4900EBCD67 /* AppKit.framework in Frameworks */,
+				385FB79D17819AD800EBCD67 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385FB79017819AD800EBCD67 = {
+			isa = PBXGroup;
+			children = (
+				385FB7AA17819B9300EBCD67 /* Classes */,
+				385FB7C417819C2200EBCD67 /* OpenSource Classes */,
+				385FB7D117819F1700EBCD67 /* Resources */,
+				385FB79E17819AD800EBCD67 /* iOSSimulatorExtension */,
+				385FB79B17819AD800EBCD67 /* Frameworks */,
+				385FB79A17819AD800EBCD67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		385FB79A17819AD800EBCD67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385FB79917819AD800EBCD67 /* iOSSimulatorExtension.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		385FB79B17819AD800EBCD67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7CF17819C4D00EBCD67 /* Cocoa.framework */,
+				385FB7CD17819C4900EBCD67 /* AppKit.framework */,
+				385FB79C17819AD800EBCD67 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		385FB79E17819AD800EBCD67 /* iOSSimulatorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				385FB79F17819AD800EBCD67 /* Supporting Files */,
+			);
+			path = iOSSimulatorExtension;
+			sourceTree = "<group>";
+		};
+		385FB79F17819AD800EBCD67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7A017819AD800EBCD67 /* iOSSimulatorExtension-Info.plist */,
+				385FB7A117819AD900EBCD67 /* InfoPlist.strings */,
+				385FB7A417819AD900EBCD67 /* iOSSimulatorExtension-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		385FB7AA17819B9300EBCD67 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7D41781A14300EBCD67 /* Main */,
+				385FB7B517819B9300EBCD67 /* Extensions */,
+				385FB7AD17819B9300EBCD67 /* DragDrop */,
+				385FB7D81781A16600EBCD67 /* Misc */,
+				385FB7B817819B9300EBCD67 /* Helpers */,
+			);
+			name = Classes;
+			path = iOSSimulatorExtension/Classes;
+			sourceTree = "<group>";
+		};
+		385FB7AD17819B9300EBCD67 /* DragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7AE17819B9300EBCD67 /* DragDropManager.h */,
+				385FB7AF17819B9300EBCD67 /* DragDropManager.m */,
+				385FB7B017819B9300EBCD67 /* DragDropView.h */,
+				385FB7B117819B9300EBCD67 /* DragDropView.m */,
+				385FB7B217819B9300EBCD67 /* DraggableItem.h */,
+			);
+			path = DragDrop;
+			sourceTree = "<group>";
+		};
+		385FB7B517819B9300EBCD67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7B617819B9300EBCD67 /* XCodeProjectExtension.h */,
+				385FB7B717819B9300EBCD67 /* XCodeProjectExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		385FB7B817819B9300EBCD67 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7B917819B9300EBCD67 /* ShellScriptRunner.h */,
+				385FB7BA17819B9300EBCD67 /* ShellScriptRunner.m */,
+				385FB7BB17819B9300EBCD67 /* Utils.h */,
+				385FB7BC17819B9300EBCD67 /* Utils.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		385FB7C417819C2200EBCD67 /* OpenSource Classes */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7C517819C2200EBCD67 /* AMShellWrapper.h */,
+				385FB7C617819C2200EBCD67 /* AMShellWrapper.m */,
+				385FB7C717819C2200EBCD67 /* iPhone Simulator.h */,
+				385FB7C817819C2200EBCD67 /* MonitorController.h */,
+				385FB7C917819C2200EBCD67 /* SimulatorBridge.h */,
+				385FB7CA17819C2200EBCD67 /* SimulatorView.h */,
+				385FB7CB17819C2200EBCD67 /* SynthesizeSingleton.h */,
+			);
+			name = "OpenSource Classes";
+			path = "iOSSimulatorExtension/OpenSource Classes";
+			sourceTree = "<group>";
+		};
+		385FB7D117819F1700EBCD67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7D217819F1700EBCD67 /* StatusWindow.xib */,
+			);
+			name = Resources;
+			path = iOSSimulatorExtension/Resources;
+			sourceTree = "<group>";
+		};
+		385FB7D41781A14300EBCD67 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7D51781A14400EBCD67 /* ExtensionController.h */,
+				385FB7D61781A14400EBCD67 /* ExtensionController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		385FB7D81781A16600EBCD67 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				385FB7D91781A16600EBCD67 /* CustomWindow.h */,
+				385FB7DA1781A16600EBCD67 /* CustomWindow.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		385FB79817819AD800EBCD67 /* iOSSimulatorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385FB7A717819AD900EBCD67 /* Build configuration list for PBXNativeTarget "iOSSimulatorExtension" */;
+			buildPhases = (
+				385FB79517819AD800EBCD67 /* Sources */,
+				385FB79617819AD800EBCD67 /* Frameworks */,
+				385FB79717819AD800EBCD67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSSimulatorExtension;
+			productName = iOSSimulatorExtension;
+			productReference = 385FB79917819AD800EBCD67 /* iOSSimulatorExtension.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		385FB79117819AD800EBCD67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sunilphanimanne;
+			};
+			buildConfigurationList = 385FB79417819AD800EBCD67 /* Build configuration list for PBXProject "iOSSimulatorExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 385FB79017819AD800EBCD67;
+			productRefGroup = 385FB79A17819AD800EBCD67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				385FB79817819AD800EBCD67 /* iOSSimulatorExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		385FB79717819AD800EBCD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385FB7A317819AD900EBCD67 /* InfoPlist.strings in Resources */,
+				385FB7D317819F1700EBCD67 /* StatusWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385FB79517819AD800EBCD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385FB7BE17819B9300EBCD67 /* DragDropManager.m in Sources */,
+				385FB7BF17819B9300EBCD67 /* DragDropView.m in Sources */,
+				385FB7C117819B9300EBCD67 /* XCodeProjectExtension.m in Sources */,
+				385FB7C217819B9300EBCD67 /* ShellScriptRunner.m in Sources */,
+				385FB7C317819B9300EBCD67 /* Utils.m in Sources */,
+				385FB7CC17819C2200EBCD67 /* AMShellWrapper.m in Sources */,
+				385FB7D71781A14400EBCD67 /* ExtensionController.m in Sources */,
+				385FB7DB1781A16600EBCD67 /* CustomWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		385FB7A117819AD900EBCD67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385FB7A217819AD900EBCD67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		385FB7A517819AD900EBCD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		385FB7A617819AD900EBCD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		385FB7A817819AD900EBCD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSSimulatorExtension/iOSSimulatorExtension-Prefix.pch";
+				INFOPLIST_FILE = "iOSSimulatorExtension/iOSSimulatorExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		385FB7A917819AD900EBCD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSSimulatorExtension/iOSSimulatorExtension-Prefix.pch";
+				INFOPLIST_FILE = "iOSSimulatorExtension/iOSSimulatorExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		385FB79417819AD800EBCD67 /* Build configuration list for PBXProject "iOSSimulatorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385FB7A517819AD900EBCD67 /* Debug */,
+				385FB7A617819AD900EBCD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385FB7A717819AD900EBCD67 /* Build configuration list for PBXNativeTarget "iOSSimulatorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385FB7A817819AD900EBCD67 /* Debug */,
+				385FB7A917819AD900EBCD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 385FB79117819AD800EBCD67 /* Project object */;
+}
